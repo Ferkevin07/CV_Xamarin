@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_CV.MainPage">
+    <StackLayout>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="StartAndExpand">
+            <Label FontSize="Medium"
+                   FontAttributes="Bold"
+                   Text="Curriculum Vitae" />
+            <Label>Elija el CV que desee mas informacion</Label>
+            <Button Text="Kevin Benavides"
+                    TextTransform="None"
+                    CornerRadius="20"
+                    FontSize="Title"
+                    FontAttributes="Bold"
+                    x:Name="BtnCV1"
+                    Clicked="BtnCV1_Clicked" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
